@@ -1,3 +1,6 @@
 ---
-tomcat/webapps/ROOT/META-INF/context.xml:
-  service_name_for_DefaultDB: bookshop-hdi-container
+# tomcat/webapps/ROOT/META-INF/context.xml:
+#   service_name_for_DefaultDB: bookshop-hdi-container
+
+tomee/webapps/ROOT/WEB-INF/resources.xml:
+  service_name_for_DefaultDB: java-hdi-container
