@@ -49,6 +49,11 @@ modules:
 resources:
   - name: bookshop-db-hdi-container
     type: com.sap.xs.hdi-container
+    parameters:
+      service-name: hana-hdi-svc
+      config:
+        schema: hdisvc001
+        makeUniqueName: false
     properties:
       hdi-container-name: '${service-name}'
   - name: uaa_bookshop

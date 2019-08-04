@@ -1,5 +1,4 @@
 {
-  "namespace": "my.bookshop",
   "definitions": {
     "CatalogService": {
       "kind": "service"
